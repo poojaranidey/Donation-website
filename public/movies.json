@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "img": "https://static.toiimg.com/thumb/msid-83567673,width-219,height-317,imgsize-15892/83567673.jpg",
+        "name": " Shang-Chi",
+        "Director": "Destin Daniel Cretton",
+        "language": "English, Bangla",
+        "price": 3
+    },
+    {
+        "id": 2,
+        "img": "https://static.toiimg.com/thumb/msid-80093151,width-219,height-317,imgsize-64410/80093151.jpg",
+        "name": "The Father",
+        "Director": "Florian Zelle",
+        "language": "English, Bangla",
+        "price": 2
+    },
+    {
+        "id": 3,
+        "img": "https://static.toiimg.com/thumb/msid-71146439,width-219,height-317,imgsize-57709/71146439.jpg",
+        "name": "The Suicide Squad",
+        "Director": "James Gunn",
+        "language": "English, Bangla",
+        "price": 3
+    },
+    {
+        "id": 4,
+        "img": "https://static.toiimg.com/thumb/msid-70838381,width-219,height-317,imgsize-21697/70838381.jpg",
+        "name": "Cruella",
+        "Director": "Craig Gillespie",
+        "language": "English",
+        "price": 2
+    },
+    {
+        "id": 5,
+        "img": "https://static.toiimg.com/thumb/msid-75554529,width-219,height-317,imgsize-64208/75554529.jpg",
+        "name": "Raya And The Last Dragon",
+        "Director": "Don Hall",
+        "language": "English, Bangla",
+        "price": 4
+    },
+    {
+        "id": 6,
+        "img": "https://static.toiimg.com/thumb/msid-71439741,width-219,height-317,imgsize-109308/71439741.jpg",
+        "name": "Free Guy",
+        "Director": "Shawn Levy",
+        "language": "English",
+        "price": 2
+    },
+    {
+        "id": 7,
+        "img": "https://static.toiimg.com/thumb/msid-81907103,width-219,height-317,imgsize-48471/81907103.jpg",
+        "name": "Minari",
+        "Director": "Lee Levy",
+        "language": "English",
+        "price": 2
+    },
+    {
+        "id": 8,
+        "img": "https://static.toiimg.com/thumb/msid-81632596,width-219,height-317,imgsize-44934/81632596.jpg",
+        "name": "Nomadland",
+        "Director": "Chloe Zhao",
+        "language": "English, Bangla",
+        "price": 3
+    }
+]
