@@ -1,5 +1,5 @@
 .movies-container{
-    width: 72%;
+    width: 73%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
@@ -12,20 +12,20 @@
    border-radius: 15px;
 background-color: black;
 color: white;
+
 }
 .single-movie:hover {
  background-color: lightgray;
  color: black;
     border: 1px solid transparent;
     border-radius: 15px;
-    transition: all .5s linear;
+    transition: all .6s linear;
 }
 .movie-image{
- width:fit-content;
-border-radius: 10px;
+ width: fit-content;
+border-radius: 15px;
 margin-top:2px;
-margin-left: auto;
-margin-right: auto;
+
 }
 .movie-detail{
     padding: 10px;
