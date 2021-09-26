@@ -1,14 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faList, faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
+import { faList } from '@fortawesome/free-solid-svg-icons';
 import './Movie.css';
 
 const Movie = (props) => {
-    console.log(props.movie);
+    // console.log(props.movie);
     // destruchering the movies detail 
     const { name, img, id, price, Director, language } = props.movie;
     const element = <FontAwesomeIcon icon={faList} />
-    const elementDonate = <FontAwesomeIcon icon={faHandHoldingHeart} />
+
     return (
         // all movies area 
         <div className="movies-container">
@@ -22,10 +22,10 @@ const Movie = (props) => {
                     <h5>languages dubbed in movies:{language}</h5>
 
                     <button className="add-list-btn"
-                        onClick={() => props.handleAddToCart(name)}
+                        onClick={() => props.handleAddToCart(name, price)}
 
                     >{element} add to list</button>
-                    <button onClick={() => props.handleTotal(price)} className="donate-btn">{elementDonate} Total donation:</button>
+
                 </div>
             </div>
         </div>

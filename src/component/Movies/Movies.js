@@ -14,16 +14,15 @@ const Movies = () => {
     }, []);
     // button handle for movie list 
 
-    const handleAddToCart = (movie) => {
+    const handleAddToCart = (movie, price) => {
         console.log(movie);
         const newCart = [...cart, movie];
         setCart(newCart);
+        const newPrice = [...prices, price];
+        setPrices(newPrice);
     }
     // button handle for total donation 
-    const handleTotal = (price) => {
-        const newPrices = [...prices, price];
-        setPrices(newPrices);
-    }
+
     return (
         <div>
             <div className="flim-container">
@@ -33,13 +32,13 @@ const Movies = () => {
                         key={i}
                         movie={movie}
                         handleAddToCart={handleAddToCart}
-                        handleTotal={handleTotal}
+
                     >
                     </Movie>)
                     }
                 </div>
                 <div className="cart-container">
-                    <Cart cart={cart} price={prices}></Cart>
+                    <Cart cart={cart} prices={prices} ></Cart>
                 </div>
             </div>
         </div>
