@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilm, faHandHoldingHeart } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css'
 const Cart = (props) => {
-    console.log(props.price);
+    console.log(props.cart);
     const names = props.cart;
     const prices = props.price;
     let totalPrice = 0;
@@ -19,8 +19,9 @@ const Cart = (props) => {
             <h5>Movies wishlist: {names.length}</h5>
             <br />
             {
-                names.map((name, i) => <h4 key={i}>Movies name:{name}</h4>)
+                names.map((name, i) => <h4 key={i}>Movies name:{name} </h4>)
             }
+
             <h4>total Donate: {totalPrice} tk (without watching movie you can donate too...)</h4>
             <button className="Donate-btn">{DonateIcon}   Donate now</button>
             <button className="watch-movie-btn">{watchIcon}  Watch Movie</button>

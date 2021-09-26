@@ -15,6 +15,7 @@ const Movies = () => {
     // button handle for movie list 
 
     const handleAddToCart = (movie) => {
+        console.log(movie);
         const newCart = [...cart, movie];
         setCart(newCart);
     }
