@@ -1,5 +1,6 @@
+/* movies style  */
 .movies-container{
-    width: 73%;
+    width: 72%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
@@ -9,22 +10,21 @@
     margin-top: 10px;
     margin-right: 5px;
     margin-left: 50px;
-   border-radius: 15px;
-background-color: black;
-color: white;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
 
 }
 .single-movie:hover {
- background-color: lightgray;
- color: black;
-    border: 1px solid transparent;
+    background-color: lightgray;
+    color: black;
     border-radius: 15px;
     transition: all .6s linear;
 }
 .movie-image{
- width: fit-content;
-border-radius: 15px;
-margin-top:2px;
+    width: fit-content;
+    border-radius: 15px;
+    margin-top:2px;
 
 }
 .movie-detail{

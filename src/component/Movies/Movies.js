@@ -12,13 +12,13 @@ const Movies = () => {
             .then(res => res.json())
             .then(data => setMovies(data));
     }, []);
+    // button handle for movie list 
+
     const handleAddToCart = (movie) => {
-
         const newCart = [...cart, movie];
-
-
         setCart(newCart);
     }
+    // button handle for total donation 
     const handleTotal = (price) => {
         const newPrices = [...prices, price];
         setPrices(newPrices);
